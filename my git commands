@@ -1,0 +1,4 @@
+commands to remember:
+git remote -v.
+git git remote set-url origin ....
+git push origin master
