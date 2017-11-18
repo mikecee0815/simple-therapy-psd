@@ -1,0 +1,29 @@
+.header{
+	text-align: center;
+
+&__logo{
+	padding-top:5px;
+	
+@media only screen and (min-width: 768px) {
+   	display: inline-block;
+   	float:left;
+}
+}
+
+&__btn{
+	/*display: block;*/
+	border: 1px solid blue;
+	border-radius: 50px;
+	/*padding: 0px 5px 0px 5px;*/
+	width: 75px;
+
+	
+@media only screen and (min-width: 768px) {
+   	display: inline-block;
+	float: right;
+}
+}
+&__navbar{
+	padding: 15px;
+}
+}

@@ -493,20 +493,54 @@ template {
 }
 }
 
-.nav-header{
-	background: #da3133;
-	padding:10px;	
-}
-
-.nav-header__navbar{
+.header{
 	text-align: center;
-	margin-left: -40px;
-	float: left;
 }
 
-.nav-header__menu-item{
-	padding: 10px;
-	display:inline-block;
+.header__logo{
+	padding-top:5px;
+}
+
+@media only screen and (min-width: 768px) {
+
+.header__logo{
+   	display: inline-block;
+   	float:left
+}
+}
+
+.header__btn{
+	/*display: block;*/
+	border: 1px solid blue;
+	border-radius: 50px;
+	/*padding: 0px 5px 0px 5px;*/
+	width: 75px;
+}
+
+@media only screen and (min-width: 768px) {
+
+.header__btn{
+   	display: inline-block;
+	float: right
+}
+}
+
+.header__navbar{
+	padding: 15px;
+}
+
+.navbar__nav-item{
+	display: block;
+	padding-top: 5px;
+	padding-right: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+
+.navbar__nav-item{
+   	display: inline-block
+   	/*float:left;*/
+}
 }
 
 body{
